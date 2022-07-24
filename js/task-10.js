@@ -10,6 +10,7 @@ const refs = {
 }
 
 const createBoxes = (amount) => {
+  destroyBoxes()
   let createEl = [];
   for (let i = 0; i < amount; i += 1) {
     const createDiv = document.createElement('div');
